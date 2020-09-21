@@ -1,29 +1,30 @@
 * {
 		box-sizing: border-box;
-		font-family:"Comic Sans MS", cursive, sans-serif;
+		font-family:"Times new Roman", cursive, sans-serif;
    }
 body {
-  background-image: url("vllogo.png"),url("backgroundbw60.png"); 
-  background-size: 35% , cover;
-  background-position: 50% 1% , left top; 
+  background-image: url("../images/vllogosmoothfcropv2.png"),url("../images/worldmapsilver95.png"); 
+  background-size: 70% , cover;
+  background-position: 140% 1% , left top; 
   background-repeat: no-repeat, no-repeat;
   background-color: black;
   z-index: 0;  
    }
 h1 {
-	text-align:center;
-	font-size:175%;
-  margin-top:20%;
+	text-align:left;
+	font-size:250%;
+  margin-left:2%;
+  margin-top:25%;
 	margin-bottom: 40px;
   color:rgb(115,101,64);
 }
 p {
   font-size: 100%;
   background-color: none;
-  color: rgb(115,101,64);
-  text-align:left;
-  height: 200px;
-  overflow: auto;
+  color: #BFBAB1;
+  text-align:justify;
+  height: 100px;
+  overflow: hidden;
  }
 section {
   padding: 40px 15px 15px 15px;
@@ -51,30 +52,28 @@ section {
 .title {
   position: absolute;
   top:0;
-  right:0;
-  width:50%;
+  left:15px;
+  width:100%;
   border: 0px solid black;
   border-top-width:0px;
   border-right-width:0px;
-  text-align:center;
-  font-size:125%;
+  text-align:left;
+  font-size:255%;
+  color:#BFBAB1;
   
 }
 
-.chicken {
-  background-color: none;
-  color:rgb(115,101,64);
-}
+.par1 {
+  background-color:none;
+  }
 
-.beef {
+.par2 {
   background-color: none;
-  color:rgb(115,101,64);
+   }
+
+.par3 {
+  background-color: none;
  }
-
-.sushi {
-  background-color: none;
-  color:rgb(115,101,64);
-}
 
 
 /********** Desktop device **********/
